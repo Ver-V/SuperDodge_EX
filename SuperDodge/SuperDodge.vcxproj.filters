@@ -93,6 +93,9 @@
     <ClInclude Include="Core\Component.hpp">
       <Filter>헤더 파일\Core</Filter>
     </ClInclude>
+    <ClInclude Include="Core\AudioManager.hpp">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
     <ClInclude Include="Core\GameConstants.hpp">
       <Filter>헤더 파일\Core</Filter>
     </ClInclude>
@@ -149,6 +152,9 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Core\AudioManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="Core\GameLoop.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>

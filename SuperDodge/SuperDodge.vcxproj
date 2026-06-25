@@ -134,6 +134,7 @@
     <ClInclude Include="Components\PlayerControllerComponent.hpp" />
     <ClInclude Include="Components\PlayerStatusComponent.hpp" />
     <ClInclude Include="Components\StarItemComponent.hpp" />
+    <ClInclude Include="Core\AudioManager.hpp" />
     <ClInclude Include="Core\Component.hpp" />
     <ClInclude Include="Core\GameConstants.hpp" />
     <ClInclude Include="Core\GameLoop.hpp" />
@@ -165,6 +166,7 @@
     <ClInclude Include="Rendering\TextRenderer.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Core\AudioManager.cpp" />
     <ClCompile Include="Core\GameLoop.cpp" />
     <ClCompile Include="Core\WindowContext.cpp" />
     <ClCompile Include="Game\GameManager.cpp" />
@@ -177,9 +179,13 @@
   <ItemGroup>
     <FxCompile Include="ps.hlsl">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
     </FxCompile>
     <FxCompile Include="vs.hlsl">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
     </FxCompile>
   </ItemGroup>
   <ItemGroup>
@@ -188,6 +194,13 @@
     </None>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <Target Name="CopyAudioAssets" AfterTargets="Build">
+    <ItemGroup>
+      <AudioAssets Include="$(ProjectDir)Assets\Audio\*.mp3" />
+    </ItemGroup>
+    <MakeDir Directories="$(OutDir)Assets\Audio" />
+    <Copy SourceFiles="@(AudioAssets)" DestinationFolder="$(OutDir)Assets\Audio" SkipUnchangedFiles="true" />
+  </Target>
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
 </Project>

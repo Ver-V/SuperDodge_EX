@@ -1,114 +1,99 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\",
+  "WorkspaceRootPath": "C:\\Users\\dktmv\\Documents\\GitHub\\SuperDodge_EX\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\DodgeApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Core\\DodgeApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\SuperDodge_EX\\x64\\Release\\vs.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:x64\\Release\\vs.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Game\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7A3E40F8-02A0-44CC-9E8A-944EF1405FAF}|SuperDodge\\SuperDodge.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\SuperDodge_EX\\SuperDodge\\ps.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7A3E40F8-02A0-44CC-9E8A-944EF1405FAF}|SuperDodge\\SuperDodge.vcxproj|solutionrelative:SuperDodge\\ps.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7A3E40F8-02A0-44CC-9E8A-944EF1405FAF}|SuperDodge\\SuperDodge.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\SuperDodge_EX\\SuperDodge\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A3E40F8-02A0-44CC-9E8A-944EF1405FAF}|SuperDodge\\SuperDodge.vcxproj|solutionrelative:SuperDodge\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Rendering\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Rendering\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\DodgeApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\AIComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Components\\AIComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameConfig.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\Component.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Core\\Component.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\GameConstants.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\DodgeApplication.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Core\\DodgeApplication.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameEnums.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\FastAIComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Components\\FastAIComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameConfig.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Game\\GameConfig.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\GameObject.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\GameConstants.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Core\\GameConstants.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\GameWorld.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameEnums.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Game\\GameEnums.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\GuidedAIComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Game\\GameManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\MathTypes.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\GameObject.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Core\\GameObject.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\MathUtils.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\GameWorld.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Core\\GameWorld.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\NormalAIComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\GuidedAIComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Components\\GuidedAIComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\ObjectPool.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\MathTypes.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Core\\MathTypes.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\ObstacleData.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\MathUtils.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Core\\MathUtils.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\UIManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\NormalAIComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Components\\NormalAIComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\ScoreManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\ObjectPool.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Game\\ObjectPool.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\RectRendererComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\ObstacleData.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Game\\ObstacleData.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\PrefabFactory.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\UIManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Game\\UIManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\PlayerStatusComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\ScoreManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Game\\ScoreManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Rendering\\Renderer.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Rendering\\Renderer.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Rendering\\Renderer.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\FastAIComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\RectRendererComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Components\\RectRendererComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\DodgeApplication.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\PrefabFactory.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Game\\PrefabFactory.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\Component.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\PlayerStatusComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE2730CD-0BE2-44C1-80D6-EF03C317DEC6}|testproject\\testproject.vcxproj|solutionrelative:testproject\\Components\\PlayerStatusComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\AIComponent.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA531FC6-44CC-4A32-AECF-78F804B0CC54}|Dodge_Base\\Dodge_Base.vcxproj|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\Dodge_Base\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CA531FC6-44CC-4A32-AECF-78F804B0CC54}|Dodge_Base\\Dodge_Base.vcxproj|solutionrelative:Dodge_Base\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\Dodge_Base\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Rendering\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,268 +103,305 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 25,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "vs.hlsl",
+              "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\SuperDodge_EX\\x64\\Release\\vs.hlsl",
+              "RelativeDocumentMoniker": "x64\\Release\\vs.hlsl",
+              "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\SuperDodge_EX\\x64\\Release\\vs.hlsl",
+              "RelativeToolTip": "x64\\Release\\vs.hlsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-06-25T09:29:05.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ps.hlsl",
+              "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\SuperDodge_EX\\SuperDodge\\ps.hlsl",
+              "RelativeDocumentMoniker": "SuperDodge\\ps.hlsl",
+              "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\SuperDodge_EX\\SuperDodge\\ps.hlsl",
+              "RelativeToolTip": "SuperDodge\\ps.hlsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-06-25T09:11:44.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\SuperDodge_EX\\SuperDodge\\main.cpp",
+              "RelativeDocumentMoniker": "SuperDodge\\main.cpp",
+              "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\SuperDodge_EX\\SuperDodge\\main.cpp",
+              "RelativeToolTip": "SuperDodge\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-25T08:42:39.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GameConfig.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameConfig.hpp",
-              "RelativeDocumentMoniker": "testproject\\Game\\GameConfig.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameConfig.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameConfig.hpp",
-              "RelativeToolTip": "testproject\\Game\\GameConfig.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameConfig.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T11:14:29.987Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "GameConstants.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\GameConstants.hpp",
-              "RelativeDocumentMoniker": "testproject\\Core\\GameConstants.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\GameConstants.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\GameConstants.hpp",
-              "RelativeToolTip": "testproject\\Core\\GameConstants.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\GameConstants.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T11:14:16.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "GameEnums.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameEnums.hpp",
-              "RelativeDocumentMoniker": "testproject\\Game\\GameEnums.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameEnums.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameEnums.hpp",
-              "RelativeToolTip": "testproject\\Game\\GameEnums.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameEnums.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T11:14:15.712Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "GameManager.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameManager.hpp",
-              "RelativeDocumentMoniker": "testproject\\Game\\GameManager.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameManager.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameManager.hpp",
-              "RelativeToolTip": "testproject\\Game\\GameManager.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameManager.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T11:14:14.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "GameObject.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\GameObject.hpp",
-              "RelativeDocumentMoniker": "testproject\\Core\\GameObject.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\GameObject.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\GameObject.hpp",
-              "RelativeToolTip": "testproject\\Core\\GameObject.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\GameObject.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T11:14:10.955Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "GameWorld.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\GameWorld.hpp",
-              "RelativeDocumentMoniker": "testproject\\Core\\GameWorld.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\GameWorld.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\GameWorld.hpp",
-              "RelativeToolTip": "testproject\\Core\\GameWorld.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\GameWorld.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T11:14:09.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
               "Title": "GuidedAIComponent.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\GuidedAIComponent.hpp",
-              "RelativeDocumentMoniker": "testproject\\Components\\GuidedAIComponent.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\GuidedAIComponent.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\GuidedAIComponent.hpp",
-              "RelativeToolTip": "testproject\\Components\\GuidedAIComponent.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\GuidedAIComponent.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T11:14:08.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "MathTypes.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\MathTypes.hpp",
-              "RelativeDocumentMoniker": "testproject\\Core\\MathTypes.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\MathTypes.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\MathTypes.hpp",
-              "RelativeToolTip": "testproject\\Core\\MathTypes.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\MathTypes.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T11:14:07.077Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 12,
               "Title": "MathUtils.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\MathUtils.hpp",
-              "RelativeDocumentMoniker": "testproject\\Core\\MathUtils.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\MathUtils.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\MathUtils.hpp",
-              "RelativeToolTip": "testproject\\Core\\MathUtils.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\MathUtils.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T11:14:05.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 13,
               "Title": "NormalAIComponent.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\NormalAIComponent.hpp",
-              "RelativeDocumentMoniker": "testproject\\Components\\NormalAIComponent.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\NormalAIComponent.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\NormalAIComponent.hpp",
-              "RelativeToolTip": "testproject\\Components\\NormalAIComponent.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\NormalAIComponent.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T11:14:05.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 14,
               "Title": "ObjectPool.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\ObjectPool.hpp",
-              "RelativeDocumentMoniker": "testproject\\Game\\ObjectPool.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\ObjectPool.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\ObjectPool.hpp",
-              "RelativeToolTip": "testproject\\Game\\ObjectPool.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\ObjectPool.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T11:13:59.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 15,
               "Title": "ObstacleData.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\ObstacleData.hpp",
-              "RelativeDocumentMoniker": "testproject\\Game\\ObstacleData.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\ObstacleData.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\ObstacleData.hpp",
-              "RelativeToolTip": "testproject\\Game\\ObstacleData.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\ObstacleData.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T11:13:58.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 16,
               "Title": "UIManager.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\UIManager.hpp",
-              "RelativeDocumentMoniker": "testproject\\Game\\UIManager.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\UIManager.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\UIManager.hpp",
-              "RelativeToolTip": "testproject\\Game\\UIManager.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\UIManager.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T11:13:51.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 17,
               "Title": "ScoreManager.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\ScoreManager.hpp",
-              "RelativeDocumentMoniker": "testproject\\Game\\ScoreManager.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\ScoreManager.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\ScoreManager.hpp",
-              "RelativeToolTip": "testproject\\Game\\ScoreManager.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\ScoreManager.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T11:13:48.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 18,
               "Title": "RectRendererComponent.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\RectRendererComponent.hpp",
-              "RelativeDocumentMoniker": "testproject\\Components\\RectRendererComponent.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\RectRendererComponent.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\RectRendererComponent.hpp",
-              "RelativeToolTip": "testproject\\Components\\RectRendererComponent.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\RectRendererComponent.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvx4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T11:13:32.794Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 19,
               "Title": "PrefabFactory.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\PrefabFactory.hpp",
-              "RelativeDocumentMoniker": "testproject\\Game\\PrefabFactory.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\PrefabFactory.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\PrefabFactory.hpp",
-              "RelativeToolTip": "testproject\\Game\\PrefabFactory.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\PrefabFactory.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T11:13:32.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 20,
               "Title": "PlayerStatusComponent.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\PlayerStatusComponent.hpp",
-              "RelativeDocumentMoniker": "testproject\\Components\\PlayerStatusComponent.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\PlayerStatusComponent.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\PlayerStatusComponent.hpp",
-              "RelativeToolTip": "testproject\\Components\\PlayerStatusComponent.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\PlayerStatusComponent.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T11:11:14.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "Renderer.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Rendering\\Renderer.hpp",
-              "RelativeDocumentMoniker": "testproject\\Rendering\\Renderer.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Rendering\\Renderer.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Rendering\\Renderer.hpp",
-              "RelativeToolTip": "testproject\\Rendering\\Renderer.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Rendering\\Renderer.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAIwCkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T09:56:21.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "FastAIComponent.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\FastAIComponent.hpp",
-              "RelativeDocumentMoniker": "testproject\\Components\\FastAIComponent.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\FastAIComponent.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\FastAIComponent.hpp",
-              "RelativeToolTip": "testproject\\Components\\FastAIComponent.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\FastAIComponent.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T09:46:07.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 23,
               "Title": "DodgeApplication.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\DodgeApplication.hpp",
-              "RelativeDocumentMoniker": "testproject\\Core\\DodgeApplication.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\DodgeApplication.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\DodgeApplication.hpp",
-              "RelativeToolTip": "testproject\\Core\\DodgeApplication.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\DodgeApplication.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T09:46:03.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 24,
               "Title": "Component.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\Component.hpp",
-              "RelativeDocumentMoniker": "testproject\\Core\\Component.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\Component.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\Component.hpp",
-              "RelativeToolTip": "testproject\\Core\\Component.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\Component.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T09:45:57.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 25,
               "Title": "AIComponent.hpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\AIComponent.hpp",
-              "RelativeDocumentMoniker": "testproject\\Components\\AIComponent.hpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\AIComponent.hpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\AIComponent.hpp",
-              "RelativeToolTip": "testproject\\Components\\AIComponent.hpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Components\\AIComponent.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-02T09:45:28.692Z"
@@ -389,58 +411,56 @@
               "DocumentIndex": 26,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\Dodge_Base\\main.cpp",
-              "RelativeDocumentMoniker": "Dodge_Base\\main.cpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\Dodge_Base\\main.cpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\Dodge_Base\\main.cpp",
-              "RelativeToolTip": "Dodge_Base\\main.cpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\Dodge_Base\\main.cpp",
               "ViewState": "AgIAALsBAAAAAAAAAAAAAFoCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-02T09:36:57.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 27,
               "Title": "Renderer.cpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Rendering\\Renderer.cpp",
-              "RelativeDocumentMoniker": "testproject\\Rendering\\Renderer.cpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Rendering\\Renderer.cpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Rendering\\Renderer.cpp",
-              "RelativeToolTip": "testproject\\Rendering\\Renderer.cpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Rendering\\Renderer.cpp",
               "ViewState": "AgIAAKsAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-02T09:36:47.308Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 28,
               "Title": "GameManager.cpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameManager.cpp",
-              "RelativeDocumentMoniker": "testproject\\Game\\GameManager.cpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameManager.cpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameManager.cpp",
-              "RelativeToolTip": "testproject\\Game\\GameManager.cpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Game\\GameManager.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAPMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-02T09:36:26.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DodgeApplication.cpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\DodgeApplication.cpp",
-              "RelativeDocumentMoniker": "testproject\\Core\\DodgeApplication.cpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\DodgeApplication.cpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\DodgeApplication.cpp",
-              "RelativeToolTip": "testproject\\Core\\DodgeApplication.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAvAAAAAAAAAA==",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\Core\\DodgeApplication.cpp",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-02T09:36:32.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T09:36:32.808Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 29,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\main.cpp",
-              "RelativeDocumentMoniker": "testproject\\main.cpp",
+              "RelativeDocumentMoniker": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\main.cpp",
               "ToolTip": "C:\\Users\\dktmv\\Documents\\GitHub\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\main.cpp",
-              "RelativeToolTip": "testproject\\main.cpp",
+              "RelativeToolTip": "..\\26-DirectX-Super-Dodge\\2026-DirectX-Project-Team-SuperDodge\\CSE_GP_SuperDodge\\testproject\\main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-02T09:36:21.158Z"

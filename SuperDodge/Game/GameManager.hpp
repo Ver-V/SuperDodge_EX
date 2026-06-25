@@ -9,6 +9,9 @@
 #include "BossManager.hpp"
 #include "ScoreManager.hpp"
 #include "GameRenderResources.hpp"
+#include "../Core/AudioManager.hpp"
+
+#include <vector>
 
 class Renderer;
 class GameObject;
@@ -30,9 +33,23 @@ private:
     ScoreManager _scoreManager;
     BossManager _bossManager;
     GameRenderResources _renderResources;
+    AudioManager _audioManager;
+
+    struct GrazeParticle
+    {
+        Vector2 position;
+        Vector2 velocity;
+        float age = 0.0f;
+        float lifetime = 0.0f;
+        float radius = 0.0f;
+    };
+
+    std::vector<GrazeParticle> _grazeParticles;
+    unsigned int _particleSeed = 0x1234abcd;
 
     bool _bombFlashRequest = false;
     int _debugBossPhaseIndex = 0;
+    int _debugMusicTrackIndex = -1;
 
 public:
     bool Initialize(Renderer& renderer, InputManager* inputManager);
@@ -49,6 +66,13 @@ private:
     void ResetPlayer();
     void DrawUI(Renderer& renderer);
     void ClearActiveObstacles();
+    void SpawnGrazeParticles(const Vector2& center);
+    void UpdateGrazeParticles(float deltaTime);
+    void DrawGrazeParticles(Renderer& renderer);
+    float NextParticleRandom(float minValue, float maxValue);
+    MusicTrack GetGameplayMusicTrack(float survivalTime) const;
+    float GetGameplayMusicVolume(float survivalTime) const;
+    MusicTrack GetDebugMusicTrack(int trackIndex) const;
     bool InitializeRenderResources(Renderer& renderer);
     bool LoadShapeShader(GraphicsContext* graphics, ShaderSet& shaderSet);
 };

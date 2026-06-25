@@ -357,6 +357,8 @@ private:
 
     void ExecutePattern(const BossPhaseConfig& config)
     {
+        constexpr float BossSpeedScale = 2.0f / 3.0f;
+
         switch (config.phase)
         {
         case BossPhase::Phase1:
@@ -385,38 +387,53 @@ private:
             break;
 
         case BossPhase::Phase6:
-            SpawnRadial(config.projectileCount, config.projectileSpeed, _burstIndex * 0.15f);
-            SpawnAimedFan(7, config.projectileSpeed + 25.0f, 0.12f, ObstacleType::Fast);
+        {
+            const float speed = config.projectileSpeed * BossSpeedScale;
+            SpawnRadial(config.projectileCount, speed, _burstIndex * 0.15f);
+            SpawnAimedFan(7, (config.projectileSpeed + 25.0f) * BossSpeedScale, 0.12f, ObstacleType::Fast);
             if (_burstIndex % 2 == 0)
-                SpawnGuidedFan(5, config.projectileSpeed - 30.0f, 0.18f);
+                SpawnGuidedFan(5, (config.projectileSpeed - 30.0f) * BossSpeedScale, 0.18f);
             break;
+        }
 
         case BossPhase::Phase7:
-            SpawnRadial(config.projectileCount, config.projectileSpeed, _burstIndex * 0.18f);
-            SpawnAimedFan(9, config.projectileSpeed + 30.0f, 0.11f, ObstacleType::Fast);
-            SpawnGuidedFan(5, config.projectileSpeed - 20.0f, 0.16f);
+        {
+            const float speed = config.projectileSpeed * BossSpeedScale;
+            SpawnRadial(config.projectileCount, speed, _burstIndex * 0.18f);
+            SpawnAimedFan(9, (config.projectileSpeed + 30.0f) * BossSpeedScale, 0.11f, ObstacleType::Fast);
+            SpawnGuidedFan(5, (config.projectileSpeed - 20.0f) * BossSpeedScale, 0.16f);
             break;
+        }
 
         case BossPhase::Phase8:
-            SpawnRadial(config.projectileCount, config.projectileSpeed, _burstIndex * 0.20f);
-            SpawnAimedFan(9, config.projectileSpeed + 35.0f, 0.10f, ObstacleType::Fast);
-            SpawnGuidedFan(7, config.projectileSpeed - 25.0f, 0.14f);
+        {
+            const float speed = config.projectileSpeed * BossSpeedScale;
+            SpawnRadial(config.projectileCount, speed, _burstIndex * 0.20f);
+            SpawnAimedFan(9, (config.projectileSpeed + 35.0f) * BossSpeedScale, 0.10f, ObstacleType::Fast);
+            SpawnGuidedFan(7, (config.projectileSpeed - 25.0f) * BossSpeedScale, 0.14f);
             break;
+        }
 
         case BossPhase::Phase9:
-            SpawnRadial(config.projectileCount, config.projectileSpeed, _burstIndex * 0.22f);
-            SpawnAimedFan(9, config.projectileSpeed + 40.0f, 0.10f, ObstacleType::Fast);
-            SpawnGuidedFan(7, config.projectileSpeed - 20.0f, 0.13f);
+        {
+            const float speed = config.projectileSpeed * BossSpeedScale;
+            SpawnRadial(config.projectileCount, speed, _burstIndex * 0.22f);
+            SpawnAimedFan(9, (config.projectileSpeed + 40.0f) * BossSpeedScale, 0.10f, ObstacleType::Fast);
+            SpawnGuidedFan(7, (config.projectileSpeed - 20.0f) * BossSpeedScale, 0.13f);
             if (_burstIndex % 2 == 0)
-                SpawnCrossBurst(4, 3, config.projectileSpeed + 15.0f, _burstIndex * 0.10f);
+                SpawnCrossBurst(4, 3, (config.projectileSpeed + 15.0f) * BossSpeedScale, _burstIndex * 0.10f, BossSpeedScale);
             break;
+        }
 
         case BossPhase::Final:
-            SpawnRadial(config.projectileCount, config.projectileSpeed, _burstIndex * 0.20f);
-            SpawnAimedFan(11, config.projectileSpeed + 45.0f, 0.09f, ObstacleType::Fast);
-            SpawnGuidedFan(7, config.projectileSpeed - 25.0f, 0.12f);
-            SpawnCrossBurst(4, 3, config.projectileSpeed + 20.0f, _burstIndex * 0.12f);
+        {
+            const float speed = config.projectileSpeed * BossSpeedScale;
+            SpawnRadial(config.projectileCount, speed, _burstIndex * 0.20f);
+            SpawnAimedFan(11, (config.projectileSpeed + 45.0f) * BossSpeedScale, 0.09f, ObstacleType::Fast);
+            SpawnGuidedFan(7, (config.projectileSpeed - 25.0f) * BossSpeedScale, 0.12f);
+            SpawnCrossBurst(4, 3, (config.projectileSpeed + 20.0f) * BossSpeedScale, _burstIndex * 0.12f, BossSpeedScale);
             break;
+        }
 
         default:
             break;
@@ -474,13 +491,18 @@ private:
 
     void SpawnCrossBurst(int rayCount, int bulletsPerRay, float baseSpeed, float angleOffset)
     {
+        SpawnCrossBurst(rayCount, bulletsPerRay, baseSpeed, angleOffset, 1.0f);
+    }
+
+    void SpawnCrossBurst(int rayCount, int bulletsPerRay, float baseSpeed, float angleOffset, float speedStepScale)
+    {
         for (int ray = 0; ray < rayCount; ++ray)
         {
             const float angle = angleOffset + (2.0f * Pi * ray / rayCount);
             const Vector2 direction(std::cos(angle), std::sin(angle));
 
             for (int bullet = 0; bullet < bulletsPerRay; ++bullet)
-                SpawnProjectile(ObstacleType::Fast, direction, baseSpeed + bullet * 42.0f);
+                SpawnProjectile(ObstacleType::Fast, direction, baseSpeed + bullet * 42.0f * speedStepScale);
         }
     }
 

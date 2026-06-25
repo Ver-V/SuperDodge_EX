@@ -1,0 +1,42 @@
+﻿  compilation object save succeeded; see C:\Users\dktmv\Documents\GitHub\SuperDodge_EX\x64\Release\ps.cso
+  compilation object save succeeded; see C:\Users\dktmv\Documents\GitHub\SuperDodge_EX\x64\Release\vs.cso
+  AudioManager.cpp
+  GameLoop.cpp
+C:\Users\dktmv\Documents\GitHub\SuperDodge_EX\SuperDodge\Core\GameLoop.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\dktmv\Documents\GitHub\SuperDodge_EX\SuperDodge\Core\GameConstants.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Core/GameLoop.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\dktmv\Documents\GitHub\SuperDodge_EX\SuperDodge\Components\PlayerControllerComponent.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Core/GameLoop.cpp'을(를) 컴파일하는 중)
+  
+  WindowContext.cpp
+  GameManager.cpp
+C:\Users\dktmv\Documents\GitHub\SuperDodge_EX\SuperDodge\Game\GameManager.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\dktmv\Documents\GitHub\SuperDodge_EX\SuperDodge\Core\GameConstants.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Game/GameManager.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\dktmv\Documents\GitHub\SuperDodge_EX\SuperDodge\Components\PlayerControllerComponent.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Game/GameManager.cpp'을(를) 컴파일하는 중)
+  
+  main.cpp
+C:\Users\dktmv\Documents\GitHub\SuperDodge_EX\SuperDodge\Core\GameConstants.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\dktmv\Documents\GitHub\SuperDodge_EX\SuperDodge\Components\PlayerControllerComponent.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+  GraphicsContext.cpp
+  PrimitiveRenderer.cpp
+C:\Users\dktmv\Documents\GitHub\SuperDodge_EX\SuperDodge\Core\GameConstants.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Rendering/PrimitiveRenderer.cpp'을(를) 컴파일하는 중)
+  
+  Renderer.cpp
+  TextRenderer.cpp
+C:\Users\dktmv\Documents\GitHub\SuperDodge_EX\SuperDodge\Core\GameConstants.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Rendering/TextRenderer.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 1231 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  SuperDodge.vcxproj -> C:\Users\dktmv\Documents\GitHub\SuperDodge_EX\x64\Release\SuperDodge.exe

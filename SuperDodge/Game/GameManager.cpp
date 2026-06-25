@@ -86,6 +86,7 @@ namespace
 bool GameManager::Initialize(Renderer& renderer, InputManager* inputManager)
 {
     if (!InitializeRenderResources(renderer)) return false;
+    _audioManager.Initialize();
     _inputManager = inputManager;
     _world.Clear();
 
@@ -110,6 +111,9 @@ void GameManager::Update(float deltaTime)
     if (_inputManager == nullptr)
         return;
 
+    _audioManager.Update();
+    UpdateGrazeParticles(deltaTime);
+
     if (_currentState == GameState::Ready && _inputManager->IsKeyPressed(VK_SPACE))
     {
         StartGame();
@@ -126,14 +130,25 @@ void GameManager::Update(float deltaTime)
     if (_currentState != GameState::Playing)
         return;
 
+#ifdef _DEBUG
     if (_inputManager->IsKeyPressed(VK_F5))
     {
         _bossManager.ForceStartPhase(_debugBossPhaseIndex);
         _debugBossPhaseIndex = (_debugBossPhaseIndex + 1) % 10;
 
         if (_spawner != nullptr)
-            _spawner->SetSpawnCountScale(1.0f / 3.0f);
+            _spawner->StopSpawn();
+
+        ClearActiveObstacles();
     }
+
+    if (_inputManager->IsKeyPressed(VK_F6))
+    {
+        _debugMusicTrackIndex = (_debugMusicTrackIndex + 1) % 4;
+        _audioManager.PlayBgm(GetDebugMusicTrack(_debugMusicTrackIndex));
+        _audioManager.SetBgmVolume(1.0f);
+    }
+#endif
 
     // 폭탄 사용
     if (_inputManager->IsKeyPressed('X'))
@@ -141,22 +156,31 @@ void GameManager::Update(float deltaTime)
         PlayerStatusComponent* status = _player->GetComponent<PlayerStatusComponent>();
         if (status != nullptr && status->UseBomb())
         {
+            _audioManager.PlaySfx(SoundEffect::Bomb);
             ClearActiveObstacles();
             _bombFlashRequest = true;
         }
     }
 
     _scoreManager.UpdateScore(deltaTime);
-    BossEvent bossEvent = _bossManager.Update(deltaTime, _scoreManager.GetSurvivalTime());
+    const float survivalTime = _scoreManager.GetSurvivalTime();
+    if (_debugMusicTrackIndex < 0)
+    {
+        _audioManager.PlayBgm(GetGameplayMusicTrack(survivalTime));
+        _audioManager.SetBgmVolume(GetGameplayMusicVolume(survivalTime));
+    }
+    BossEvent bossEvent = _bossManager.Update(deltaTime, survivalTime);
     if (bossEvent == BossEvent::Started)
     {
         if (_spawner != nullptr)
-            _spawner->SetSpawnCountScale(1.0f / 3.0f);
+            _spawner->StopSpawn();
+
+        ClearActiveObstacles();
     }
     else if (bossEvent == BossEvent::Ended)
     {
         if (_spawner != nullptr)
-            _spawner->SetSpawnCountScale(1.0f);
+            _spawner->StartSpawn();
     }
     else if (bossEvent == BossEvent::FinalCleared)
     {
@@ -191,6 +215,7 @@ void GameManager::Update(float deltaTime)
                 if (IsCircleOverlap(playerPos, GetCircumscribedRadius(playerSize), obj->GetPosition(), starItem->GetPickupRadius()))
                 {
                     playerStatus->CollectStar();
+                    _audioManager.PlaySfx(SoundEffect::Star);
                     obj->SetActive(false);
                 }
                 continue;
@@ -213,6 +238,7 @@ void GameManager::Update(float deltaTime)
 
                 if (!damaged) continue;
 
+                _audioManager.PlaySfx(SoundEffect::Hit);
                 obj->SetActive(false);
 
                 if (playerStatus->IsDead())
@@ -233,11 +259,13 @@ void GameManager::Update(float deltaTime)
             {
                 _scoreManager.AddGrazeScore();
                 obstacleStatus->MarkGrazed();
+                _audioManager.PlaySfx(SoundEffect::Graze);
+                SpawnGrazeParticles(Vector2((playerPos.x + obsPos.x) * 0.5f, (playerPos.y + obsPos.y) * 0.5f));
 
                 if (obstacleStatus->IsBossProjectile() && _bossManager.RegisterGraze())
                 {
                     if (_spawner != nullptr)
-                        _spawner->SetSpawnCountScale(1.0f);
+                        _spawner->StartSpawn();
                     break;
                 }
             }
@@ -259,6 +287,7 @@ void GameManager::Draw(Renderer& renderer, float deltaTime)
     renderer.Clear(0.05f, 0.05f, 0.1f);
 
     _world.Render(renderer);
+    DrawGrazeParticles(renderer);
 
     if (_currentState == GameState::GameOver)
     {
@@ -280,6 +309,10 @@ void GameManager::StartGame()
 {
     _currentState = GameState::Playing;
     _debugBossPhaseIndex = 0;
+    _debugMusicTrackIndex = -1;
+    _grazeParticles.clear();
+    _audioManager.PlaySfx(SoundEffect::Start);
+    _audioManager.PlayBgm(GetGameplayMusicTrack(0.0f));
     ClearActiveObstacles();
     _bossManager.Reset();
     ResetPlayer();
@@ -295,6 +328,8 @@ void GameManager::GameOver()
 {
     _currentState = GameState::GameOver;
     FinalizeScore(false);
+    _audioManager.StopBgm();
+    _audioManager.PlaySfx(SoundEffect::GameOver);
 
     if (_spawner != nullptr)
         _spawner->StopSpawn();
@@ -309,6 +344,8 @@ void GameManager::GameClear()
 {
     _currentState = GameState::GameClear;
     FinalizeScore(true);
+    _audioManager.StopBgm();
+    _audioManager.PlaySfx(SoundEffect::Clear);
 
     if (_spawner != nullptr)
         _spawner->StopSpawn();
@@ -563,6 +600,111 @@ void GameManager::ClearActiveObstacles()
     {
         if (obj->GetComponent<ObstacleStatusComponent>() == nullptr) continue;
         obj->SetActive(false);
+    }
+}
+
+void GameManager::SpawnGrazeParticles(const Vector2& center)
+{
+    constexpr float Pi = 3.1415926535f;
+    const int particleCount = 3 + static_cast<int>(NextParticleRandom(0.0f, 1.99f));
+
+    for (int i = 0; i < particleCount; ++i)
+    {
+        const float angle = NextParticleRandom(0.0f, Pi * 2.0f);
+        const float speed = NextParticleRandom(90.0f, 170.0f);
+
+        GrazeParticle particle;
+        particle.position = center;
+        particle.velocity = Vector2(std::cos(angle) * speed, std::sin(angle) * speed);
+        particle.lifetime = NextParticleRandom(0.18f, 0.32f);
+        particle.radius = NextParticleRandom(2.0f, 3.4f);
+        _grazeParticles.push_back(particle);
+    }
+}
+
+void GameManager::UpdateGrazeParticles(float deltaTime)
+{
+    for (GrazeParticle& particle : _grazeParticles)
+    {
+        particle.age += deltaTime;
+        particle.position.x += particle.velocity.x * deltaTime;
+        particle.position.y += particle.velocity.y * deltaTime;
+        particle.velocity.x *= 0.92f;
+        particle.velocity.y *= 0.92f;
+    }
+
+    _grazeParticles.erase(
+        std::remove_if(
+            _grazeParticles.begin(),
+            _grazeParticles.end(),
+            [](const GrazeParticle& particle)
+            {
+                return particle.age >= particle.lifetime;
+            }),
+        _grazeParticles.end());
+}
+
+void GameManager::DrawGrazeParticles(Renderer& renderer)
+{
+    for (const GrazeParticle& particle : _grazeParticles)
+    {
+        const float normalizedAge = particle.lifetime > 0.0f ? particle.age / particle.lifetime : 1.0f;
+        const float alpha = (std::max)(0.0f, 1.0f - normalizedAge);
+        renderer.DrawCircle(
+            particle.position,
+            particle.radius * (0.75f + alpha * 0.35f),
+            Color(1.0f, 1.0f, 1.0f, alpha));
+    }
+}
+
+float GameManager::NextParticleRandom(float minValue, float maxValue)
+{
+    _particleSeed = _particleSeed * 1664525u + 1013904223u;
+    const float normalized = static_cast<float>((_particleSeed >> 8) & 0x00ffffff) / 16777215.0f;
+    return minValue + (maxValue - minValue) * normalized;
+}
+
+MusicTrack GameManager::GetGameplayMusicTrack(float survivalTime) const
+{
+    if (survivalTime < 211.0f)
+        return MusicTrack::Time0To330;
+
+    if (survivalTime < 331.0f)
+        return MusicTrack::Time331To530;
+
+    if (survivalTime < 451.0f)
+        return MusicTrack::Time531To730;
+
+    return MusicTrack::Time731ToEnd;
+}
+
+float GameManager::GetGameplayMusicVolume(float survivalTime) const
+{
+    constexpr float FadeDuration = 2.0f;
+    constexpr float ChangeTimes[] = { 211.0f, 331.0f, 451.0f };
+
+    for (float changeTime : ChangeTimes)
+    {
+        const float fadeStartTime = changeTime - FadeDuration;
+        if (survivalTime >= fadeStartTime && survivalTime < changeTime)
+            return (changeTime - survivalTime) / FadeDuration;
+    }
+
+    return 1.0f;
+}
+
+MusicTrack GameManager::GetDebugMusicTrack(int trackIndex) const
+{
+    switch (trackIndex)
+    {
+    case 0:
+        return MusicTrack::Time0To330;
+    case 1:
+        return MusicTrack::Time331To530;
+    case 2:
+        return MusicTrack::Time531To730;
+    default:
+        return MusicTrack::Time731ToEnd;
     }
 }
 
