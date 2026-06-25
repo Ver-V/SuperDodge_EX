@@ -1,0 +1,37 @@
+﻿  DodgeApplication.cpp
+C:\Users\dktmv\Documents\GitHub\26-DirectX-Super-Dodge\2026-DirectX-Project-Team-SuperDodge\CSE_GP_SuperDodge\testproject\Core\GameConstants.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Core/DodgeApplication.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\dktmv\Documents\GitHub\26-DirectX-Super-Dodge\2026-DirectX-Project-Team-SuperDodge\CSE_GP_SuperDodge\testproject\Components\RectRendererComponent.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Core/DodgeApplication.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\dktmv\Documents\GitHub\26-DirectX-Super-Dodge\2026-DirectX-Project-Team-SuperDodge\CSE_GP_SuperDodge\testproject\Components\PlayerControllerComponent.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Core/DodgeApplication.cpp'을(를) 컴파일하는 중)
+  
+  GameManager.cpp
+C:\Users\dktmv\Documents\GitHub\26-DirectX-Super-Dodge\2026-DirectX-Project-Team-SuperDodge\CSE_GP_SuperDodge\testproject\Game\GameManager.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\dktmv\Documents\GitHub\26-DirectX-Super-Dodge\2026-DirectX-Project-Team-SuperDodge\CSE_GP_SuperDodge\testproject\Core\GameConstants.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Game/GameManager.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\dktmv\Documents\GitHub\26-DirectX-Super-Dodge\2026-DirectX-Project-Team-SuperDodge\CSE_GP_SuperDodge\testproject\Components\RectRendererComponent.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Game/GameManager.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\dktmv\Documents\GitHub\26-DirectX-Super-Dodge\2026-DirectX-Project-Team-SuperDodge\CSE_GP_SuperDodge\testproject\Components\PlayerControllerComponent.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Game/GameManager.cpp'을(를) 컴파일하는 중)
+  
+  main.cpp
+C:\Users\dktmv\Documents\GitHub\26-DirectX-Super-Dodge\2026-DirectX-Project-Team-SuperDodge\CSE_GP_SuperDodge\testproject\Core\GameConstants.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\dktmv\Documents\GitHub\26-DirectX-Super-Dodge\2026-DirectX-Project-Team-SuperDodge\CSE_GP_SuperDodge\testproject\Components\RectRendererComponent.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\dktmv\Documents\GitHub\26-DirectX-Super-Dodge\2026-DirectX-Project-Team-SuperDodge\CSE_GP_SuperDodge\testproject\Components\PlayerControllerComponent.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+  Renderer.cpp
+C:\Users\dktmv\Documents\GitHub\26-DirectX-Super-Dodge\2026-DirectX-Project-Team-SuperDodge\CSE_GP_SuperDodge\testproject\Core\GameConstants.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'Rendering/Renderer.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다...
+  testproject.vcxproj -> C:\Users\dktmv\Documents\GitHub\26-DirectX-Super-Dodge\2026-DirectX-Project-Team-SuperDodge\CSE_GP_SuperDodge\x64\Debug\testproject.exe
