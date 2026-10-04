@@ -122,6 +122,8 @@ public:
     template<typename T>
     void UpdateConstantData(ID3D11DeviceContext* context, int index, const T& data)
     {
+        static_assert(sizeof(T) % 16 == 0, "Constant data size must be a multiple of 16 bytes");
+
         if (context == nullptr) return;
         if (index < 0) return;
         if (index >= static_cast<int>(_constantBuffers.size())) return;

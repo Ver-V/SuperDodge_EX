@@ -8,6 +8,7 @@ struct ConstantBuffer
 {
     DirectX::XMMATRIX matWorld;
 };
+static_assert(sizeof(ConstantBuffer) % 16 == 0, "ConstantBuffer size must be a multiple of 16 bytes");
 
 struct ShaderSet
 {
