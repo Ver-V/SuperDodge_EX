@@ -2,6 +2,7 @@
 
 #include <vector>
 #include <memory>
+#include <algorithm>
 #include "GameObject.hpp"
 
 class Renderer;
@@ -16,6 +17,20 @@ public:
     {
         _objects.push_back(std::unique_ptr<GameObject>(object));
         return object;
+    }
+
+    // Update/Render 루프 밖에서만 호출 (순회 중 erase하면 인덱스가 밀림)
+    void DestroyObjects(const std::vector<GameObject*>& targets)
+    {
+        if (targets.empty()) return;
+
+        _objects.erase(
+            std::remove_if(_objects.begin(), _objects.end(),
+                [&targets](const std::unique_ptr<GameObject>& object)
+                {
+                    return std::find(targets.begin(), targets.end(), object.get()) != targets.end();
+                }),
+            _objects.end());
     }
 
     void Clear()

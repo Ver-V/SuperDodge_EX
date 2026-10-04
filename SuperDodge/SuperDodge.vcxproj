@@ -143,6 +143,7 @@
     <ClInclude Include="Core\InputManager.hpp" />
     <ClInclude Include="Core\MathTypes.hpp" />
     <ClInclude Include="Core\MathUtils.hpp" />
+    <ClInclude Include="Core\PerfConfig.hpp" />
     <ClInclude Include="Core\Timer.hpp" />
     <ClInclude Include="Core\WindowContext.hpp" />
     <ClInclude Include="Game\BossManager.hpp" />

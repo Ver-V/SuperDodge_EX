@@ -5,6 +5,7 @@
 #include "../Core/GameConstants.hpp"
 #include "../Core/InputManager.hpp"
 #include "../Core/MathUtils.hpp"
+#include "../Core/PerfConfig.hpp"
 
 #include "PrefabFactory.hpp"
 #include "../Components/ObstacleSpawnerComponent.hpp"
@@ -20,6 +21,7 @@
 
 #pragma comment(lib, "d3dcompiler.lib")
 #include <cmath>
+#include <chrono>
 #include <algorithm>
 #include <string>
 
@@ -111,6 +113,11 @@ void GameManager::Update(float deltaTime)
     if (_inputManager == nullptr)
         return;
 
+    // 풀 미사용 모드에서 지난 프레임에 비활성화된 장애물/탄막을 delete (월드 순회 밖이어야 함)
+    _bossManager.ReleaseInactiveProjectiles();
+    if (_spawner != nullptr)
+        _spawner->ReleaseInactiveObstacles();
+
     _audioManager.Update();
     UpdateGrazeParticles(deltaTime);
 
@@ -130,7 +137,7 @@ void GameManager::Update(float deltaTime)
     if (_currentState != GameState::Playing)
         return;
 
-#ifdef _DEBUG
+#if ENABLE_CHEATS
     if (_inputManager->IsKeyPressed(VK_F5))
     {
         _bossManager.ForceStartPhase(_debugBossPhaseIndex);
@@ -286,8 +293,18 @@ void GameManager::Draw(Renderer& renderer, float deltaTime)
 
     renderer.Clear(0.05f, 0.05f, 0.1f);
 
+#if ENABLE_FRAME_LOG
+    using Clock = std::chrono::high_resolution_clock;
+    using Milliseconds = std::chrono::duration<double, std::milli>;
+    const Clock::time_point worldStart = Clock::now();
+#endif
+
     _world.Render(renderer);
     DrawGrazeParticles(renderer);
+
+#if ENABLE_FRAME_LOG
+    GetFrameCounters().worldRenderMs = Milliseconds(Clock::now() - worldStart).count();
+#endif
 
     if (_currentState == GameState::GameOver)
     {
@@ -302,7 +319,15 @@ void GameManager::Draw(Renderer& renderer, float deltaTime)
                           Color(0.1f, 0.4f, 1.0f, 0.35f));
     }
 
+#if ENABLE_FRAME_LOG
+    const Clock::time_point uiStart = Clock::now();
+#endif
+
     DrawUI(renderer);
+
+#if ENABLE_FRAME_LOG
+    GetFrameCounters().uiMs = Milliseconds(Clock::now() - uiStart).count();
+#endif
 }
 
 void GameManager::StartGame()
@@ -601,6 +626,27 @@ void GameManager::ClearActiveObstacles()
         if (obj->GetComponent<ObstacleStatusComponent>() == nullptr) continue;
         obj->SetActive(false);
     }
+}
+
+int GameManager::GetActiveObjectCount() const
+{
+    int count = 0;
+    for (const auto& obj : _world.GetObjects())
+    {
+        if (obj->IsActive())
+            ++count;
+    }
+    return count;
+}
+
+int GameManager::GetTotalObjectCount() const
+{
+    return static_cast<int>(_world.GetObjects().size());
+}
+
+bool GameManager::IsBossActive() const
+{
+    return _bossManager.IsActive();
 }
 
 void GameManager::SpawnGrazeParticles(const Vector2& center)

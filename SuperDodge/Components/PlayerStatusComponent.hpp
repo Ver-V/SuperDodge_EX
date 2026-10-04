@@ -3,6 +3,7 @@
 #include <algorithm>
 
 #include "../Core/Component.hpp"
+#include "../Core/PerfConfig.hpp"
 
 class PlayerStatusComponent : public Component
 {
@@ -35,6 +36,11 @@ public:
 
     bool TakeDamage(int damage)
     {
+#if ENABLE_GOD_MODE
+        (void)damage;
+        return false;
+#endif
+
         if (_isDead || IsInvincible())
             return false;
 

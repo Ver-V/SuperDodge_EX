@@ -177,6 +177,11 @@ public:
         return _state == BossState::Active;
     }
 
+    void ReleaseInactiveProjectiles()
+    {
+        _projectilePool.ReleaseInactive();
+    }
+
     bool IsFinalPhase() const
     {
         return _phase == BossPhase::Final;

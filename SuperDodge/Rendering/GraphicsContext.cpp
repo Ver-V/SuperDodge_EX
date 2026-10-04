@@ -1,4 +1,5 @@
 #include "GraphicsContext.hpp"
+#include "../Core/PerfConfig.hpp"
 
 #pragma comment(lib, "d3d11.lib")
 #pragma comment(lib, "dxgi.lib")
@@ -91,7 +92,7 @@ void GraphicsContext::Clear(float r, float g, float b)
 
 void GraphicsContext::Present()
 {
-    _swapChain->Present(1, 0);
+    _swapChain->Present(ENABLE_VSYNC ? 1 : 0, 0);
 }
 
 void GraphicsContext::Release()

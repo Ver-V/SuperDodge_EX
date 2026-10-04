@@ -74,6 +74,11 @@ public:
         ResetStars();
     }
 
+    void ReleaseInactiveObstacles()
+    {
+        _objectPool.ReleaseInactive();
+    }
+
     void SetSpawnCountScale(float scale)
     {
         _spawnIntervalMultiplier = scale > 0.0f ? 1.0f / scale : 1.0f;

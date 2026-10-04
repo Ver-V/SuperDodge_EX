@@ -61,6 +61,10 @@ public:
     void GameClear();
     void RestartGame();
 
+    int GetActiveObjectCount() const;
+    int GetTotalObjectCount() const;
+    bool IsBossActive() const;
+
 private:
     void FinalizeScore(bool awardClearBonus);
     void ResetPlayer();

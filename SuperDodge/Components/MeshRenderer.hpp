@@ -3,8 +3,10 @@
 #define NOMINMAX
 #include <d3d11.h>
 #include <DirectXMath.h>
+#include <chrono>
 
 #include "../Core/Component.hpp"
+#include "../Core/PerfConfig.hpp"
 #include "../Core/GameObject.hpp"
 #include "../Core/GameConstants.hpp"
 #include "../Rendering/Renderer.hpp"
@@ -86,7 +88,16 @@ public:
             desc.ByteWidth = sizeof(ConstantBuffer);
             desc.BindFlags = D3D11_BIND_CONSTANT_BUFFER;
 
+#if ENABLE_FRAME_LOG
+            const auto createStart = std::chrono::high_resolution_clock::now();
+#endif
             HRESULT hr = device->CreateBuffer(&desc, nullptr, &_constantBuffer);
+#if ENABLE_FRAME_LOG
+            FrameCounters& counters = GetFrameCounters();
+            ++counters.buffersCreated;
+            counters.bufferCreateMs += std::chrono::duration<double, std::milli>(
+                std::chrono::high_resolution_clock::now() - createStart).count();
+#endif
             if (FAILED(hr)) return;
         }
 

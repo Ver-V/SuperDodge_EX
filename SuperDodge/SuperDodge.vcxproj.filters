@@ -117,6 +117,9 @@
     <ClInclude Include="Core\MathTypes.hpp">
       <Filter>헤더 파일\Core</Filter>
     </ClInclude>
+    <ClInclude Include="Core\PerfConfig.hpp">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
     <ClInclude Include="Core\Timer.hpp">
       <Filter>헤더 파일\Core</Filter>
     </ClInclude>
