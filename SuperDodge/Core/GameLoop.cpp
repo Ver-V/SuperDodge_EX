@@ -51,12 +51,13 @@ int GameLoop::RunMessageLoop()
     SYSTEMTIME now = {};
     GetLocalTime(&now);
     char frameLogName[64] = {};
-    sprintf_s(frameLogName, "%s_%04d%02d%02d_%02d%02d%02d.csv",
+    sprintf_s(frameLogName, "%s_%s_%04d%02d%02d_%02d%02d%02d.csv",
         USE_OBJECT_POOL ? "frame_pool" : "frame_nopool",
+        USE_TEXT_LAYOUT_CACHE ? "textcache" : "nocache",
         now.wYear, now.wMonth, now.wDay, now.wHour, now.wMinute, now.wSecond);
 
     std::ofstream frameLog(frameLogName);
-    frameLog << "frame,frameMs,cpuMs,activeObjects,totalObjects,created,destroyed,bossActive,buffersCreated,bufferCreateMs,poolGetCalls,poolScanSteps,poolGetMs,updateMs,drawMs,worldRenderMs,uiMs,presentMs\n";
+    frameLog << "frame,frameMs,cpuMs,activeObjects,totalObjects,created,destroyed,bossActive,buffersCreated,bufferCreateMs,poolGetCalls,poolScanSteps,poolGetMs,updateMs,drawMs,worldRenderMs,uiMs,presentMs,textDrawCalls,textLayoutsCreated,textEndDrawMs\n";
 
     long long frameIndex = 0;
     Clock::time_point previousFrameStart = Clock::now();
@@ -114,7 +115,10 @@ int GameLoop::RunMessageLoop()
                  << Milliseconds(cpuEnd - updateEnd).count() << ','
                  << counters.worldRenderMs << ','
                  << counters.uiMs << ','
-                 << Milliseconds(presentEnd - cpuEnd).count() << '\n';
+                 << Milliseconds(presentEnd - cpuEnd).count() << ','
+                 << counters.textDrawCalls << ','
+                 << counters.textLayoutsCreated << ','
+                 << counters.textEndDrawMs << '\n';
 
         previousFrameStart = frameStart;
         GetFrameCounters() = FrameCounters();

@@ -15,6 +15,9 @@
 // 1: 플레이어 무적 (피격 무시, 측정용 장시간 플레이) / 0: off
 #define ENABLE_GOD_MODE 1
 
+// 1: 텍스트 레이아웃(IDWriteTextLayout) 캐시 사용 / 0: 매번 DrawTextW (기존 방식)
+#define USE_TEXT_LAYOUT_CACHE 0
+
 struct FrameCounters
 {
     int objectsCreated = 0;
@@ -26,6 +29,9 @@ struct FrameCounters
     double poolGetMs = 0.0;        // time spent in GetObject
     double worldRenderMs = 0.0;    // GameManager::Draw - world + particles
     double uiMs = 0.0;             // GameManager::Draw - DrawUI (text)
+    int textDrawCalls = 0;         // DrawString + DrawCenteredString count
+    int textLayoutsCreated = 0;    // IDWriteTextLayout created (cache miss)
+    double textEndDrawMs = 0.0;    // ID2D1RenderTarget::EndDraw (D2D flush)
 };
 
 inline FrameCounters& GetFrameCounters()
